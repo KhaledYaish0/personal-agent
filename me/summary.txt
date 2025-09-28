@@ -1,2 +1,21 @@
-Khaled Yaish — Computer Engineer, AI/ML enthusiast, and entrepreneur; founder of BearBulk (sportswear) and co-founder of Memzy (EdTech).
-Focused on RAG systems, agentic AI, full-stack development, and IoT projects, while preparing for global AI/ML career opportunities.
+Khaled Yaish is an Agentic AI Engineer and Computer Engineering graduate from An-Najah National University. 
+His primary focus is on Machine Learning and Agentic AI systems, with hands-on experience in Retrieval-Augmented Generation (RAG), 
+LangChain, CrewAI, and building end-to-end intelligent applications.
+
+He has applied advanced ML techniques such as TensorFlow, Scikit-learn, XGBoost, CNNs, PCA, K-Means, and SHAP 
+to real-world projects, including donor prediction, image classification, customer segmentation, and 
+an apartment price prediction system for the Palestinian real estate market. 
+He also developed and deployed AI-driven solutions such as Memzy, an education management platform 
+with face recognition, and BotStrike, an AI-powered tabletop robot game integrating hardware, AI vision, and robotics.
+
+Beyond AI, Khaled has strong full-stack development experience (React.js, Node.js, Flutter, SQL, Firebase, MongoDB, Oracle) 
+and entrepreneurial leadership as the Founder & CEO of BearBulk (sportswear/e-commerce brand) and Co-Founder of Memzy. 
+He also contributed to national-scale digital platforms for the Ministry of Telecom & IT and the Ministry of Tourism & Antiquities in Palestine.
+
+Khaled combines advanced AI/ML engineering with entrepreneurship, 
+delivering impactful solutions that bridge intelligent automation with real-world applications.
+
+His GitHub showcases practical implementations of Agentic AI and RAG systems, including:
+- [RAG_PROJECT](https://github.com/KhaledYaish0/RAG_PROJECT): a lightweight RAG pipeline with FAISS and BART summarization.
+- [rag-streamlit-app](https://github.com/KhaledYaish0/rag-streamlit-app): a Streamlit-based app for interactive Q&A on uploaded PDFs.
+- [personal-agent](https://github.com/KhaledYaish0/personal-agent): a Gradio-powered AI agent that represents Khaled in real-time, with meeting booking, job-offer tracking, and live notifications.

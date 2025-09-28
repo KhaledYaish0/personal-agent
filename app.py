@@ -267,6 +267,23 @@ record_amr_qamhieh_json = {
     }
 }
 
+# 14. Send CV Tool
+def send_cv():
+    return {
+        "cv_link": "https://huggingface.co/spaces/KhaledYaish/personal-agent/raw/main/me/KhaledYaish.CV.pdf"
+    }
+
+send_cv_json = {
+    "name": "send_cv",
+    "description": "Send Khaled Yaish's CV (resume) PDF directly to the user.",
+    "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": False
+    }
+}
+
 # ================== TOOLS LIST ==================
 tools = [
     {"type": "function", "function": {
@@ -304,7 +321,8 @@ tools = [
     {"type": "function", "function": request_mentorship_json},
     {"type": "function", "function": auto_send_zoom_json},
     {"type": "function", "function": set_language_preference_json},
-    {"type": "function", "function": record_amr_qamhieh_json}
+    {"type": "function", "function": record_amr_qamhieh_json},
+    {"type": "function", "function": send_cv_json},
 ]
 
 # ================== MAIN CLASS ==================
@@ -335,6 +353,7 @@ class Me:
     def system_prompt(self):
         system_prompt = f"You are acting as {self.name}. You are answering questions on {self.name}'s website. Be professional and engaging.\n\n"
         system_prompt += f"## Summary:\n{self.summary}\n\n## LinkedIn Profile:\n{self.linkedin}\n\n"
+        system_prompt += f"If user asks for CV or resume, call the send_cv tool."
         return system_prompt
     
     def chat(self, message, history):
@@ -351,7 +370,7 @@ class Me:
             else:
                 done = True
         return response.choices[0].message.content
-    
+
 
 if __name__ == "__main__":
     me = Me()
