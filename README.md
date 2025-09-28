@@ -75,6 +75,11 @@ Gradio will provide a local URL (and sometimes a public share link).
 
 ---
 
+## 🚀 Live Demo
+Check out the live demo on Hugging Face Spaces:  
+👉 [Personal Agent on Hugging Face](https://huggingface.co/spaces/KhaledYaish/personal-agent)
+
+
 ## .gitignore
 Make sure `.env` is ignored:
 ```txt
