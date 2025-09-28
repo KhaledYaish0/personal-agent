@@ -267,23 +267,7 @@ record_amr_qamhieh_json = {
     }
 }
 
-# 14. Send CV Tool
-def send_cv():
-    return {
-        "cv_link": "https://github.com/KhaledYaish0/personal-agent/raw/main/me/KhaledYaish.CV.pdf"
-    }
 
-
-send_cv_json = {
-    "name": "send_cv",
-    "description": "Send Khaled Yaish's CV (resume) PDF directly to the user.",
-    "parameters": {
-        "type": "object",
-        "properties": {},
-        "required": [],
-        "additionalProperties": False
-    }
-}
 
 # ================== TOOLS LIST ==================
 tools = [
@@ -323,7 +307,6 @@ tools = [
     {"type": "function", "function": auto_send_zoom_json},
     {"type": "function", "function": set_language_preference_json},
     {"type": "function", "function": record_amr_qamhieh_json},
-    {"type": "function", "function": send_cv_json},
 ]
 
 # ================== MAIN CLASS ==================
