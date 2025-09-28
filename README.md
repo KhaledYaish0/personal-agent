@@ -11,7 +11,6 @@ It includes multiple tools such as:
 - Feedback collection  
 - Special alerts when certain names are mentioned  
 
-**Important:** Never commit `.env` or API keys to GitHub.  
 
 ---
 
@@ -61,6 +60,7 @@ pip install -r requirements.txt
 OPENAI_API_KEY=sk-...
 PUSHOVER_TOKEN=your_pushover_token
 PUSHOVER_USER=your_pushover_user
+HF_TOKEN=hf_...
 ```
 
 ---
